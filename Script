@@ -1,0 +1,43 @@
+Good Morning/Afternoon Everyone,
+My name is Soumita Das. Earlier, my teammate <teammate_name> explained the Use Case diagram and the ERD diagram.
+Now, I will be discussing the next topic, which focuses on Black Box Testing and Validation Testing.
+
+Let me start with the definitions.
+Black Box Testing
+Black Box Testing is a software testing technique where the tester evaluates the functionality of an application without any knowledge of its internal code, structure, or implementation details.
+The focus is entirely on inputs and outputs—we provide inputs to the system and verify whether the outputs match the expected results.
+
+Validation Testing
+Validation Testing is a type of software testing that ensures the product meets business requirements and user needs.
+It answers the question:
+“Are we building the right product?”
+
+In our project , we applied these testing methods effectively and achieved the desired results.
+
+Here are some examples from our project:
+
+
+In the Student Registration System, if a student already exists in the application and tries to create a new account, the system checks the email ID and displays an alert message:
+“Email is already taken.”
+
+
+We implemented OTP validation for verifying the user’s email. When the user clicks “Send OTP”, the system sends the OTP successfully.
+
+
+We also tested the logic for verifying the entered OTP to ensure it is valid.
+
+
+The system checks that the marks percentage entered by the user is greater than 0 and less than 100.
+
+
+Additionally, the system verifies if the student has any year gap after 10th grade.
+
+
+For Mentor Registration, we applied similar testing methods, with an additional rule:
+The mentor’s experience must be less than their age.
+
+
+
+These are the testing methods we implemented and validated in our project.
+That’s all from my side. Thank you for listening.
+Now, my teammate  will explain the User Manual.
